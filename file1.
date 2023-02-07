@@ -1,3 +1,6 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+step1:
 # PROBLEM
 How to activate GeForce rtx 3050 graphics card in windows 11 processor i7??
 # SOLUTION
@@ -11,6 +14,9 @@ To activate a Geforce RTX 3050 graphics card on a windows 11 processor with an i
 6.To verify that the GeForce RTX 3050 graphic card is being used, go to the windows task manager and check the GPU usgae.
 you should see the NVIDIA GPU being utilized.
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Step2: 
 #PROBLEM
 Which latest drivers for GeForce RTX 3050 graphics card are required . can you provide the link from where I can download these latest drivers?
@@ -22,6 +28,8 @@ https://www.nvidia.com/download/index.aspx
 to find the correct driver for your system , you will need to select the appropriate product type, product series,and product model.
 the select your operating system, language, and choose "Driver" as the download type. 
 the lastest available driver for the Geforce RTX 3050 graphics card will be displayed on the page.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 step3:
 #PROBLEM
@@ -35,6 +43,9 @@ so if you plan on using the Geforce RTX 3050 graphic card for your deeplearning 
 
 you can download the NVIDIA studio drivers from the link i provided in my previous answer:
 https://www.nvidia.com/download/index.aspx simply select "studio driver" as the download type.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 step4:
 #PROBLEM
@@ -53,6 +64,9 @@ this will allow you to take advantage of the parallel processing capabilities of
 usage mnonitoring tools or by checking the GPU usage in the windows task manager.
 6.You may also need to install additional libaries and dependencies specific to your deep learning projects.
 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 step5:
 #PROBLEM
 how to install python for windows 11?
@@ -65,6 +79,8 @@ steps--
 -------------------
 |python --version |
 -------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 step6:
 #PROBLEM
@@ -81,6 +97,8 @@ libraries from the command line.
 ------------------
 |  nvcc --version |
 ------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 step7:
 #specify and fix the PATH for CUDA
