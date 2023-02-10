@@ -78,9 +78,10 @@ Here are the steps to create a virtual environment for TensorFlow-GPU in Anacond
 ------------------------------------------------------------------------------------------
 
 
-Note: After creating a virtual Environmnet and donig all the activities which i mentioned in this file automatically,
-we will get all all Libraries apart from keras. and CUDA and cuDNN is installed and activated too.
- for importing keras we write a command on Anaconda Prompt that is :
+If the output is (1), it means that TensorFlow-GPU has been successfully installed in your virtual environment.
+Note: Make sure that you have a GPU and the corresponding drivers installed on your system. Also, check if CUDA and cuDNN are compatible
+with the version of TensorFlow-GPU you are installing.
+for importing keras we write a command on Anaconda Prompt that is :
  ------------------------------
 | from tensorflow import keras |
  ------------------------------
