@@ -1,0 +1,90 @@
+After all the processes of NVIDIA TOOL and CUDA, i just Moved to explore Anaconda .
+
+Step8:
+#Problem
+How to Download and Install Anaconda for windows 11?
+#Solution
+steps--
+1.Go to the Anaconda website: https://www.anaconda.com/products/distribution
+2.Click on the "Download" button for the version of Anaconda you want to install.
+3.Make sure to select the version that is compatible with your operating system (Windows, macOS, or Linux).
+4.Follow the instructions on the screen to complete the installation process.
+
+For Windows:
+
+1.Open the installer that you just downloaded.
+2.Click on "Next" to continue with the installation process.
+3.Read and accept the license agreement by clicking "I Agree".
+4.Select a destination folder for Anaconda to be installed. By default, it will be installed in the user's home directory.
+5.Select whether to add Anaconda to the PATH environment variable. This will allow you to run Anaconda from anywhere on your system.
+6.Click on "Install". The installation process will take a few minutes to complete.
+7.After the installation is complete, select whether to launch Anaconda Navigator or not.
+
+Step9:
+#Problem
+How can we check that Anaconda is installed or not?
+#Solution
+To check if Anaconda is installed on your system, you can use the following steps:
+
+1.Open the Command Prompt (Windows) or Terminal (macOS, Linux) application.
+2.Type the following command and press Enter:
+-------------------
+| conda --version |
+-------------------
+3.If Anaconda is installed, you will see the version number of Anaconda displayed on the screen. For example:
+----------------
+|  conda 4.9.2 |
+----------------
+
+4.If Anaconda is not installed, you will see the following error message:
+------------------------------------------------------------------------------------------------
+| 'conda' is not recognized as an internal or external command, operable program or batch file.|
+------------------------------------------------------------------------------------------------
+
+Step10:
+#Problem
+How to set the path of anaoconda in your PC
+#Solution
+FOR WINDOWS
+To set the path of Anaconda on your PC, you need to add the path of the Anaconda installation to the environment variables on your system. Here are the steps to set the path in Windows:
+
+1.Open the Start menu and search for "Environment Variables".
+2.Click on "Edit the system environment variables".
+3.In the System Properties window, click on the "Environment Variables" button.
+4.Under System Variables, scroll down and find the "Path" variable.
+5.Click on "Edit" and then "New".
+6.Add the path to the Anaconda installation, for example: C:\ProgramData\Anaconda3\
+7.Click "OK" on all windows to save the changes.
+
+Step 11:
+#Problem
+How to create virtual environment for tensorflow-gpu in anaconda
+#Solution
+Here are the steps to create a virtual environment for TensorFlow-GPU in Anaconda:
+
+1.Open Anaconda Navigator or Anaconda Prompt.
+2.Create a new virtual environment by running the following command:
+-------------------------------------------------------
+| conda create -n tensorflow_gpu_env tensorflow-gpu | |
+-------------------------------------------------------
+3.Activate the new virtual environment by running the following command:
+---------------------------------
+| conda activate tensorflow-gpu |
+---------------------------------
+4.Verify the installation of TensorFlow-GPU by running the following command in Python:
+------------------------------------------------------------------------------------------
+| import tensorflow as tf                                                                |
+| print("Num GPUs Available :",len(tf.config.experimental.list_physical_devices('gpu'))) |
+------------------------------------------------------------------------------------------
+
+
+Note: After creating a virtual Environmnet and donig all the activities which i mentioned in this file automatically,
+we will get all all Libraries apart from keras. and CUDA and cuDNN is installed and activated too.
+ for importing keras we write a command on Anaconda Prompt that is :
+ ------------------------------
+| from tensorflow import keras |
+ ------------------------------
+
+Thank You.....
+
+
